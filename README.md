@@ -31,7 +31,7 @@ docker ps -a
 http://192.168.1.76:3200/temp  
 
 ## Fill in information in correct format
-I did not implement edge case checks for proper formatting.. I just wanted proper functionality 😅
+I implemented checks for proper length of dimensions tuple and corner list of tuples 😅 It will crash if there is other improper input!
 ![Website](/webpage.png)  
 
 ## View results
