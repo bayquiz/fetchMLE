@@ -12,7 +12,7 @@ fetch /
 # How to run
 
 ## Navigate to proper directory
-Whever you have downloaded the folder. Once there you can begin!
+Navigate to fetch directory (using command line) wherever you have downloaded the zip. Once there you can begin!
 
 ## Build the docker image
 ```
