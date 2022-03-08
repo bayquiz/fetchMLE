@@ -11,6 +11,9 @@ fetch /
 
 # How to run
 
+## Navigate to proper directory
+Whever you have downloaded the folder. Once there you can begin!
+
 ## Build the docker image
 ```
 docker build -t python-test .
@@ -19,6 +22,11 @@ docker build -t python-test .
 ```
 docker run -it --name python-container -p 3200:3200 python-test
 ```
+You can verify that its running by 
+```
+docker ps -a
+```
+
 ## Now visit the host
 http://192.168.1.76:3200/temp  
 
