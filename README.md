@@ -32,8 +32,10 @@ http://192.168.1.76:3200/temp
 
 ## Fill in information in correct format
 I did not implement edge case checks for proper formatting.. I just wanted proper functionality 😅
+![Website](/webpage.png)  
 
 ## View results
 View the image coordinates array! 
+![Results](/answer.png)  
 🐶 Hopefully you enjoy 😃
 
