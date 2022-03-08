@@ -52,7 +52,11 @@ def run(dimensions, corners):
         #plt.show()
         dimensions = ast.literal_eval(dimensions) #since its a string from the web
         corners = ast.literal_eval(corners) #since its a string from the web 
-
+        
+        if len(dimensions) != 2:
+            return "Sorry, wrong dimensions!"
+        if len(corners) != 4:
+            return "Sorry, wrong number of corners!"
 
         #now we need to determine the orientation of the corners
         newCorners = sorted(corners, key = lambda y: [y[1], y[0]])
